@@ -27,6 +27,13 @@ body{
     transform: scale(1);
 }
 
+
+.card:active{
+    transform: scale(0.97);
+    transition: transform .3s;
+    
+}
+
 .card-front,
 .card-back{
     width: 100%;
@@ -34,8 +41,10 @@ body{
     padding: 20px;
     position: absolute;
     border-radius: 5px;
-    background: #ffff;
+    background: #ffffff;
+    
 }
+
 
 
 
